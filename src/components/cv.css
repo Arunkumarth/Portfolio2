@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+}
+* {
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+}
+
+.intro {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	row-gap: 24vh;
+	row-gap: 24dvh;
+	padding-bottom: 16vh;
+	background-color: white;
+	border-bottom-right-radius: 6%;
+	border-bottom-left-radius: 6%;
+}
+.github {
+	align-self: flex-end;
+	padding: 2vw;
+}
+.github > a {
+	font-size: 1.6rem;
+	color: black;
+	margin-right: 12px;
+}
+.bio {
+	align-self: center;
+	text-align: center;
+}
+.bio > h1 {
+	font-size: 1.8rem;
+	color: rgb(46, 45, 45);
+}
+.bio > img {
+	width: 10%;
+	height: auto;
+	border-radius: 20%;
+	border: 1px solid black;
+	box-shadow: 2px 2px 24px 8px rgb(188, 186, 186);
+}
+.education,
+.skills,
+.certificates,
+.toolsused,
+.projects {
+	color: white;
+	padding: 2% 5%;
+}
+.education,
+.skills,
+.certificates,
+.toolsused,
+.projects h1 {
+	font-size: 1.7rem;
+	color: aqua;
+}
+.toolsused ul {
+	display: flex;
+	list-style: none;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+.toolsused li {
+	font-size: 1.4rem;
+	font-weight: 600;
+	border: 1px solid black;
+	width: fit-content;
+	padding: 1%;
+	border-radius: 12px;
+	background-color: white;
+	color: black;
+}
+
+.linkToProject {
+	text-decoration: none;
+	color: aqua;
+}
+.iframeContainer {
+	background-color: rgb(57, 56, 56);
+}
+.iframeContainer section {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 2% 1%;
+}
+.iframeContainer h1,
+div {
+	color: white;
+}
+.iframeContainer a {
+	color: rgb(181, 181, 255);
+	text-decoration: none;
+}
+.iframePageLinks div {
+	padding: 1vh 0;
+}
+.cv-container {
+	width: 100%;
+	box-sizing: border-box;
+	/* padding:2%; */
+	background-color: rgb(59, 58, 58);
+}
+.caros {
+	min-height: 70vh;
+}
+.caro {
+	padding: 2% 0;
+	text-align: center;
+	color: white;
+}
+.caro > img {
+	width: 80%;
+	margin: auto;
+	border-radius: 8px;
+}
+iframe {
+	width: 80%;
+	height: 80vh;
+	overflow: hidden;
+	border: 1px solid gray;
+	scrollbar-color: yellow;
+	background-color: rgb(233, 220, 220);
+	border-radius: 8px;
+}
+.certificates-caro {
+	padding: 8%;
+	display: flex;
+	justify-content: center;
+}
+.caro-image {
+	max-height: 70vh;
+	max-width: 520px;
+	margin: auto;
+}
+.contact {
+	background-color: white;
+	display: flex;
+	justify-content: space-around;
+	border-top-right-radius: 16px;
+	border-top-left-radius: 16px;
+	padding: 1% 0;
+}
+.contact div,
+p {
+	color: black;
+}
+.contact .direct-account {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.contact .direct-account a {
+	text-decoration: none;
+	font-size: 1.1rem;
+	color: black;
+}
+.mail {
+	text-decoration: none;
+}
+/* \CV FLEX */
+.flex {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 8% 1%;
+	display: flex;
+	column-gap: 10%;
+	justify-content: space-between;
+}
+.flex-img-container {
+	flex: 1;
+}
+.flexImage {
+	width: 80%;
+	height: 80%;
+	border-radius: 6px;
+}
+.flex-content {
+	flex: 1.1;
+}
+.flex-content > p {
+	font-size: 1.2rem;
+	color: rgb(220, 217, 217);
+	font-weight: 600;
+}
+@media only screen and (max-width:600px){
+    .flex{
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        padding: 4% 1%;
+    }
+    .flexImage{
+     display: none; 
+    }
+    .bio > img{
+        width: 30%;
+    }
+    .toolsused ul{
+        flex-direction: column;
+        align-items: center;
+        row-gap:2px;
+    }
+}
