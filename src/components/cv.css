@@ -110,7 +110,7 @@ div {
 	background-color: rgb(59, 58, 58);
 }
 .caros {
-	min-height: 70vh;
+	max-height: 70vh;
 }
 .caro {
 	padding: 2% 0;
@@ -207,8 +207,13 @@ p {
 	.toolsused ul {
 		row-gap: 2px;
 	}
-	.certificates {
-		padding: 1%;
+	.education,
+	.skills,
+	.certificates,
+	.toolsused,
+	.projects {
+		color: white;
+		padding: 2% 1%;
 	}
 	.certificates-caro {
 		padding: 6% 1%;
@@ -216,7 +221,7 @@ p {
 	.caro-image {
 		margin: auto;
 	}
-	.certificate-container{
+	.certificate-container {
 		max-height: 40vh;
 		max-width: 100%;
 		margin: auto;

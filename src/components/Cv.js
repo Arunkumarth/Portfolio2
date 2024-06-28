@@ -53,7 +53,7 @@ function Cv() {
 						<>
 							<h1>College</h1>
 							<h3>BE-EEE</h3>
-							<p>Percentage:8.38 out of 10</p>
+							<p>CGPA:8.38 out of 10</p>
 							<p>College:Builders Engineering College</p>
 						</>
 					}
@@ -101,7 +101,7 @@ function Cv() {
 			</section>
 			<section className="projects">
 				<h1>Projects</h1>
-				<Carousel autoplay autoplaySpeed={1500} arrows className="caros">
+				<Carousel autoplay autoplaySpeed={1500}  className="caros">
 					<div className="caro">
 						<h2>Todo App</h2>
 						<img src="images/todo.png"></img>
