@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes,HashRouter } from 'react-router-dom';
+import { Route, Routes,HashRouter } from 'react-router-dom';
 import Cv from './components/Cv';
 import ProjectsFrame from './components/ProjectsFrame';
 

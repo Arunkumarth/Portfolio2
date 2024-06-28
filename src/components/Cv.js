@@ -10,17 +10,17 @@ import {
 } from "@ant-design/icons";
 import { Link } from "react-router-dom";
 function Cv() {
-	const { Meta } = Card;
 	return (
 		<div className="cv-container">
 			<section className="intro">
 				<section className="github">
-					<a href="https://github.com/Arunkumarth" target="_blank">
+					<a href="https://github.com/Arunkumarth" target="_blank" rel="noreferrer">
 						<GithubOutlined />
 					</a>
 					<a
 						href="https://www.linkedin.com/in/arunkumar-t-ab4165212"
 						target="_blank"
+						rel="noreferrer"
 					>
 						<LinkedinOutlined />
 					</a>
@@ -125,7 +125,6 @@ function Cv() {
 				<Carousel
 					autoplay
 					autoplaySpeed={1600}
-					arrows
 					className="certificates-caro"
 					useTransform
 				>
@@ -193,7 +192,7 @@ function Cv() {
 				</div>
 				<div className="direct-account">
 					<div>
-						<a href="https://github.com/Arunkumarth" target="_blank">
+						<a href="https://github.com/Arunkumarth" target="_blank" rel="noreferrer">
 							<GithubOutlined />
 							GitHub
 						</a>
@@ -201,7 +200,7 @@ function Cv() {
 					<div>
 						<a
 							href="https://www.linkedin.com/in/arunkumar-t-ab4165212"
-							target="_blank"
+							target="_blank" rel="noreferrer"
 						>
 							<LinkedinOutlined />
 							Linked In
