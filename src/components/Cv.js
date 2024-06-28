@@ -26,7 +26,7 @@ function Cv() {
 					</a>
 				</section>
 				<section className="bio">
-					<img src="/images/arun.jpg"></img>
+					<img src="images/arun.jpg"></img>
 					<h1>Hi, I am Arunkumar welcome to my portfolio</h1>
 					{/* <h2>Fresher</h2> */}
 				</section>
@@ -45,7 +45,7 @@ function Cv() {
 							<p>School:Government High School</p>
 						</>
 					}
-					imgUrl="/images/icon-school.jpg"
+					imgUrl="images/icon-school.jpg"
 					inverted={false}
 				/>
 				<Cvflex
@@ -57,7 +57,7 @@ function Cv() {
 							<p>College:Builders Engineering College</p>
 						</>
 					}
-					imgUrl="/images/degree3.png"
+					imgUrl="images/degree3.png"
 					inverted={true}
 				/>
 			</section>
