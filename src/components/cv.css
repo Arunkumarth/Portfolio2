@@ -216,14 +216,14 @@ p {
 		padding: 2% 1%;
 	}
 	.certificates-caro {
-		padding: 6% 1%;
+		padding: 7% 1%;
 	}
 	.caro-image {
-		margin: auto;
-	}
-	.certificate-container {
 		max-height: 40vh;
 		max-width: 100%;
 		margin: auto;
+	}
+	.certificate-container {
+		padding: 1%;
 	}
 }
