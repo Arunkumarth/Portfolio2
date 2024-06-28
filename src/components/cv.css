@@ -63,7 +63,7 @@ body {
 .toolsused ul {
 	display: flex;
 	list-style: none;
-	justify-content: space-evenly;
+	justify-content: space-around;
 	flex-wrap: wrap;
 }
 .toolsused li {
@@ -111,6 +111,7 @@ div {
 }
 .caros {
 	max-height: 70vh;
+	padding-bottom: 3%;
 }
 .caro {
 	padding: 2% 0;
@@ -213,7 +214,7 @@ p {
 	.toolsused,
 	.projects {
 		color: white;
-		padding: 2% 1%;
+		padding: 2%;
 	}
 	.certificates-caro {
 		padding: 7% 1%;
@@ -225,5 +226,13 @@ p {
 	}
 	.certificate-container {
 		padding: 1%;
+	}
+	.education,
+	.skills,
+	.certificates,
+	.toolsused,
+	.projects h1 {
+		font-size: 1.5rem;
+		color: aqua;
 	}
 }
