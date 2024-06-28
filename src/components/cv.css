@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 body {
 	margin: 0;
@@ -191,31 +191,34 @@ p {
 	color: rgb(220, 217, 217);
 	font-weight: 600;
 }
-@media only screen and (max-width:600px){
-    .flex{
-        flex-direction:column;
-        align-items: center;
-        justify-content: center;
-        padding: 4% 1%;
-    }
-    .flexImage{
-     display: none; 
-    }
-    .bio > img{
-        width: 30%;
-    }
-    .toolsused ul{
-        row-gap:2px;
-    }
-     .certificates{
-	     padding:1%
-     }
+@media only screen and (max-width: 600px) {
+	.flex {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding: 4% 1%;
+	}
+	.flexImage {
+		display: none;
+	}
+	.bio > img {
+		width: 30%;
+	}
+	.toolsused ul {
+		row-gap: 2px;
+	}
+	.certificates {
+		padding: 1%;
+	}
 	.certificates-caro {
-	padding: 6% 1%;
-}
+		padding: 6% 1%;
+	}
 	.caro-image {
-	max-height: 40vh;
-	max-width: 100%;
-	margin: auto;
-}
+		margin: auto;
+	}
+	.certificate-container{
+		max-height: 40vh;
+		max-width: 100%;
+		margin: auto;
+	}
 }

@@ -127,32 +127,33 @@ function Cv() {
 					autoplaySpeed={1600}
 					className="certificates-caro"
 					useTransform
+					fade
 				>
-					<div>
+					<div className="certificate-container">
 						<img
 							className="caro-image"
 							src="images/certificates/GuviCertification -python.png"
 						></img>
 					</div>
-					<div>
+					<div className="certificate-container">
 						<img
 							className="caro-image"
 							src="images/certificates/guvi buid face reco.png"
 						></img>
 					</div>
-					<div>
+					<div className="certificate-container">
 						<img
 							className="caro-image"
 							src="images/certificates/GuviCertification - guiness record.png"
 						></img>
 					</div>
-					<div>
+					<div className="certificate-container">
 						<img
 							className="caro-image"
 							src="images/certificates/html,css.jpeg"
 						></img>
 					</div>
-					<div>
+					<div className="certificate-container">
 						<img
 							className="caro-image"
 							src="images/certificates/python-begin.jpeg"
