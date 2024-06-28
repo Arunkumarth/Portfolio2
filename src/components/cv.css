@@ -207,12 +207,15 @@ p {
     .toolsused ul{
         row-gap:2px;
     }
+     .certificates{
+	     padding:1%
+     }
 	.certificates-caro {
-		padding: 4% 1%;
-	}
+	padding: 6% 1%;
+}
 	.caro-image {
-		max-height: 40vh;
-		width: 100%;
-		margin: auto;
-	}
+	max-height: 40vh;
+	max-width: 100%;
+	margin: auto;
+}
 }
