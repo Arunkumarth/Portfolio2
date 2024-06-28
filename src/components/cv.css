@@ -209,4 +209,15 @@ p {
         align-items: center;
         row-gap:2px;
     }
+     .certificates{
+	     padding:1%
+     }
+	.certificates-caro {
+	padding: 6% 0;
+}
+	.caro-image {
+	max-height: 60vh;
+	max-width: 100%;
+	margin: auto;
+}
 }
