@@ -16,14 +16,13 @@ function Cv() {
 			<section className="intro">
 				<section className="github">
 					<a href="https://github.com/Arunkumarth" target="_blank">
-						<GithubOutlined /> 
+						<GithubOutlined />
 					</a>
 					<a
 						href="https://www.linkedin.com/in/arunkumar-t-ab4165212"
 						target="_blank"
 					>
 						<LinkedinOutlined />
-						
 					</a>
 				</section>
 				<section className="bio">
@@ -72,57 +71,54 @@ function Cv() {
 						style={{
 							width: 160,
 						}}
-						cover={<img src="/images/html5-logo.png"></img>}
+						cover={<img src="images/html5-logo.png"></img>}
 					></Card>
 					<Card
 						style={{
 							width: 160,
 						}}
-						cover={<img src="/images/css-logo.png"></img>}
+						cover={<img src="images/css-logo.png"></img>}
 					></Card>
 					<Card
 						style={{
 							width: 160,
 						}}
-						cover={<img src="/images/js-logo.jpg"></img>}
+						cover={<img src="images/js-logo.jpg"></img>}
 					></Card>
 					<Card
 						style={{
 							width: 160,
 						}}
-						cover={<img src="/images/reaacr-logo.jpg"></img>}
+						cover={<img src="images/reaacr-logo.jpg"></img>}
 					></Card>
 					<Card
 						style={{
 							width: 160,
 						}}
-						cover={<img src="/images/redux-logo.jpg"></img>}
+						cover={<img src="images/redux-logo.jpg"></img>}
 					></Card>
 				</div>
-			</section>			
+			</section>
 			<section className="projects">
 				<h1>Projects</h1>
 				<Carousel autoplay autoplaySpeed={1500} arrows className="caros">
 					<div className="caro">
 						<h2>Todo App</h2>
-						<img src="/images/todo.png"></img>
+						<img src="images/todo.png"></img>
 					</div>
 					<div className="caro">
 						<h2>TaskList App</h2>
-						<img src="/images/tasklist.png"></img>
+						<img src="images/tasklist.png"></img>
 					</div>
 					<div className="caro">
 						<h2>Todo App with CRUD operations</h2>
-						<img src="/images/todo-page.jpeg"></img>
+						<img src="images/todo-page.jpeg"></img>
 					</div>
 				</Carousel>
 				<h2>Want to try these projects?</h2>
-				<Link className="linkToProject" to='/projects'>Click here</Link>
-				{/* <div className="iframeContainer">
-					<iframe src="https://arun-todo-list-app.netlify.app/" scrolling="no" />
-					<iframe src="https://arunkumarth.github.io/Task_List/" scrolling="no" />
-					<iframe src="https://arunkumarth.github.io/To-do_List/"scrolling="no"/>
-				</div> */}
+				<Link className="linkToProject" to="/projects">
+					Click here
+				</Link>
 			</section>
 			<section className="certificates">
 				<h1>Certificates</h1>
@@ -136,34 +132,33 @@ function Cv() {
 					<div>
 						<img
 							className="caro-image"
-							src="/images/certificates/GuviCertification -python.png"
+							src="images/certificates/GuviCertification -python.png"
 						></img>
 					</div>
 					<div>
 						<img
 							className="caro-image"
-							src="/images/certificates/guvi buid face reco.png"
+							src="images/certificates/guvi buid face reco.png"
 						></img>
 					</div>
 					<div>
 						<img
 							className="caro-image"
-							src="/images/certificates/GuviCertification - guiness record.png"
+							src="images/certificates/GuviCertification - guiness record.png"
 						></img>
 					</div>
 					<div>
 						<img
 							className="caro-image"
-							src="/images/certificates/html,css.jpeg"
+							src="images/certificates/html,css.jpeg"
 						></img>
 					</div>
 					<div>
 						<img
 							className="caro-image"
-							src="/images/certificates/python-begin.jpeg"
+							src="images/certificates/python-begin.jpeg"
 						></img>
 					</div>
-					
 				</Carousel>
 			</section>
 			<section className="toolsused">
@@ -191,7 +186,7 @@ function Cv() {
 						<p>t.arunkumar3112002@gmail.com</p>
 						<div>
 							<a className="mail" href="mailto:t.arunkumar3112002@gmail.com">
-								 Sent email 
+								Sent email
 							</a>
 						</div>
 					</div>
@@ -204,7 +199,10 @@ function Cv() {
 						</a>
 					</div>
 					<div>
-						<a href="https://www.linkedin.com/in/arunkumar-t-ab4165212"target="_blank">
+						<a
+							href="https://www.linkedin.com/in/arunkumar-t-ab4165212"
+							target="_blank"
+						>
 							<LinkedinOutlined />
 							Linked In
 						</a>
